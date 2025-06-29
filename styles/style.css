@@ -5,7 +5,6 @@
             padding: 20px;
         }
         .socials {
-            margin-top: 10px;
             font-size: 20px;
             margin-top: 20px;
         }
@@ -41,4 +40,36 @@
         }
         li {
             margin: 5px 0;
+        }
+        nav {
+            border-top: 2px solid #ccc;
+            border-bottom: 2px solid #ccc;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 10px 0;
+                    
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 0px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0;
+        }
+        nav ul li a {
+            color: #333;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #f0f0f0;
+            color: #341dc6;
         }
